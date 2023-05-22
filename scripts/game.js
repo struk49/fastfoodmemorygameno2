@@ -74,6 +74,7 @@ buildBoard();
 
 function turnCard () {
     const turnCardId = this.getAttribute("data-id")
+    console.log(cardsArray[turnCardId].name);
     console.log("clicked", turnCardId);
 }
 

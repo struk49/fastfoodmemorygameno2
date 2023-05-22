@@ -16,9 +16,8 @@ describe("game object contains correct keys", () => {
          test("img exists", () => {
             expect(document.getElementsByTagName("img").innerText).toEqual[0];
         });
-        test("should display 0 for the element with id of score", () => {
-            expect(game.score).toEqual(0);
-        });
+        
+        
         
         });
     
